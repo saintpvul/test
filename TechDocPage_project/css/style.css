@@ -1,21 +1,22 @@
-html, body {
+html,
+body {
   min-width: 290px;
   margin: 0;
   color: #4d4e53;
   background-color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
-#navbar{
+#navbar {
   position: fixed;
   min-width: 290px;
-  width:300px;
-  height:100%;
+  width: 300px;
+  height: 100%;
   border-right: solid;
   border-color: grey;
-  top:5px;
-  left:5px;
+  top: 5px;
+  left: 5px;
 }
 
 h1 {
@@ -26,7 +27,7 @@ h1 {
   font-weight: thin;
 }
 
-#main-doc h1{
+#main-doc h1 {
   text-align: left;
   margin: 0px;
 }
@@ -71,7 +72,6 @@ section li {
   margin: 15px 0px 0px 20px;
 }
 
-
 code {
   display: block;
   text-align: left;
@@ -85,8 +85,8 @@ code {
   margin: 10px;
   border-radius: 5px;
 }
-@media only screen and (max-width:600px){
-	#navbar ul {
+@media only screen and (max-width: 600px) {
+  #navbar ul {
     border: 1px solid;
     height: 207px;
   }
